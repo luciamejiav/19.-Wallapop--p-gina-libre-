@@ -1,0 +1,41 @@
+.bg-wallapop:hover{
+    background-color: rgb(19, 193, 172);
+    opacity: .8;
+}
+
+.bg-wallapop{
+    background-color: rgb(19, 193, 172);
+    color: white;
+}
+
+.text-wallapop:hover{
+    color: rgb(18, 165, 148);
+}
+
+.text-wallapop{
+    color: rgb(19, 193, 172);
+}
+
+.text-descripcion {
+    color: rgb(182, 178, 178);
+    font-size: small;
+}
+
+.texto-cortado {
+    overflow: hidden; /* Esconde el texto que sobrepasa el ancho del contenedor */
+    text-overflow: ellipsis; /* Agrega puntos suspensivos al final del texto cortado */
+    width: 150px; /* Define el ancho del contenedor donde se mostrará el texto */
+}
+
+li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.text-gris {
+    color: rgb(179, 176, 176);
+}
+
+.pequeño {
+    font-size: small;
+}
